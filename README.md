@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@esm/index.mjs';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@v0.1.0-esm/index.mjs';
 ```
 
 #### minsorted( arrays )
@@ -99,7 +99,7 @@ The function has the following parameters:
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@esm/index.mjs';
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@esm/index.mjs';
+import minsorted from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@v0.1.0-esm/index.mjs';
 
 // Create a sorted data buffer:
 var xbuf = linspace( -5.0, 5.0, 10, {
