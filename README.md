@@ -41,43 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-ndarray-minsorted
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-minsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-ndarray-minsorted/tags). For example,
-
-```javascript
-minsorted = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@v0.1.0-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var minsorted = require( 'path/to/vendor/umd/stats-base-ndarray-minsorted/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.minsorted;
-})();
-</script>
+var minsorted = require( '@stdlib/stats-base-ndarray-minsorted' );
 ```
 
 #### minsorted( arrays )
@@ -119,16 +108,11 @@ The function has the following parameters:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-linspace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-ndarray-minsorted@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var linspace = require( '@stdlib/array-linspace' );
+var ndarray = require( '@stdlib/ndarray-base-ctor' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
+var minsorted = require( '@stdlib/stats-base-ndarray-minsorted' );
 
 // Create a sorted data buffer:
 var xbuf = linspace( -5.0, 5.0, 10, {
@@ -142,11 +126,6 @@ console.log( ndarray2array( x ) );
 // Compute the minimum of the sorted ndarray:
 var v = minsorted( [ x ] );
 console.log( v );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -200,8 +179,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-ndarray-minsorted.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-ndarray-minsorted
 
-[test-image]: https://github.com/stdlib-js/stats-base-ndarray-minsorted/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/stats-base-ndarray-minsorted/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/stats-base-ndarray-minsorted/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/stats-base-ndarray-minsorted/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-ndarray-minsorted/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-ndarray-minsorted?branch=main
