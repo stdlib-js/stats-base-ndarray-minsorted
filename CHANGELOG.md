@@ -1,0 +1,103 @@
+# CHANGELOG
+
+> Package changelog.
+
+<section class="release" id="unreleased">
+
+## Unreleased (2026-08-08)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`e8a15dd`](https://github.com/stdlib-js/stdlib/commit/e8a15dd05466add8b27998c945d4ee5d524bb8d0) - **refactor:** remove unused generic in `stats/base/ndarray/minsorted` [(#12494)](https://github.com/stdlib-js/stdlib/pull/12494) _(by Philipp Burckhardt)_
+-   [`5b13c97`](https://github.com/stdlib-js/stdlib/commit/5b13c970e7fcb0bb2b7c688a12607b172c1605c6) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`9a51841`](https://github.com/stdlib-js/stdlib/commit/9a51841213eb13adbd6b8fe36d96c00aac9fbb17) - **bench:** refactor to use string interpolation in `stats/base` [(#11393)](https://github.com/stdlib-js/stdlib/pull/11393) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2026-02-08)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2026-01-31)
+
+<section class="features">
+
+### Features
+
+-   [`b10256d`](https://github.com/stdlib-js/stdlib/commit/b10256d3e962737a4ed07b28d8fa94b9f131d81f) - add `stats/base/ndarray/minsorted` [(#8435)](https://github.com/stdlib-js/stdlib/pull/8435)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`be4ce52`](https://github.com/stdlib-js/stdlib/commit/be4ce524621e636ab04b9940df550dff7dc93aa5) - **docs:** update examples to use explicit dtype _(by Athan Reines)_
+-   [`fd40621`](https://github.com/stdlib-js/stdlib/commit/fd40621d93fac33ff8a483754f3aa2c8c929f1b9) - **docs:** fix typos and inconsistencies in ndarray stats READMEs _(by Philipp Burckhardt)_
+-   [`0d2bde9`](https://github.com/stdlib-js/stdlib/commit/0d2bde9c340755e6ebdf3b1495c9e4cf47b56a03) - **docs:** add missing references and notes _(by Athan Reines)_
+-   [`347914d`](https://github.com/stdlib-js/stdlib/commit/347914dc5de466218b40f73e5302d8439f7ba20f) - **test:** update descriptions _(by Athan Reines)_
+-   [`b10256d`](https://github.com/stdlib-js/stdlib/commit/b10256d3e962737a4ed07b28d8fa94b9f131d81f) - **feat:** add `stats/base/ndarray/minsorted` [(#8435)](https://github.com/stdlib-js/stdlib/pull/8435) _(by Sachin Pangal, Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 3 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+-   Sachin Pangal
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
